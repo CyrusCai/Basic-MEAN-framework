@@ -1,0 +1,17 @@
+{
+  "name": "myExpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19"
+  },
+  "scripts": {
+    "start": "http-server",
+    "server": "nodemon server/app.js"
+  },
+  "author": "Cyrus",
+  "license": "ISC"
+}

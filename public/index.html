@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="testApp">
+<head>
+  <title>Test Mean framework</title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.min.css">
+</head>
+<body ng-controller="main.controller as vm">
+  <h1>Hello world!</h1>
+    <h2>Name: {{vm.name}}</h2>
+    <h2>Name reverse: {{vm.name| reverse}}</h2>
+    <h2>Scope.age : {{age}}</h2>
+    <h2>type json: {{vm.type| json}}</h2>
+
+  <input type="text" ng-model="customer.name">
+  <input type="text" ng-model="customer.address">
+
+  <span>{{test.id}}</span>
+  <my-customer>Check out the contents, {{age}}!</my-customer>
+  <!-- <div new-page type="New type" name="Hellow world"></div> -->
+
+  <script src="./lib/angular.js"></script>
+  <script src="./lib/jquery-2.2.1.min.js"></script>
+  <script src="./lib/bootstrap.min.js"></script>
+  <script src="./scripts/test/directive.js"></script>
+  <script src="./scripts/test/filter.js"></script>
+  <script src="./scripts/test/controller.js"></script>
+  <script src="./scripts/test/service.js"></script>
+</body>
+</html>
