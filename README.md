@@ -1,8 +1,7 @@
 # Basic-MEAN-framework
 
 ## Introduction
-This is a very basic framework for MEAN. I wanna to build this example for future development, and get familar with a logic folder structure,
-as well as angular, express.
+This is a very basic framework for MEAN. I wanna build this example for future development, and get familar with a logic folder structure, as well as angular, express.
 All the lib or tools used are:
 - Angular 1
 - Express
